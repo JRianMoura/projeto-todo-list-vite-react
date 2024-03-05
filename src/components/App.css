@@ -1,0 +1,23 @@
+.main {
+  background: #fff;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+input {
+  background: #fff;
+  border-radius: 4px;
+  border: solid 1px;
+  padding: 5px 10px;
+  color: #000;
+}

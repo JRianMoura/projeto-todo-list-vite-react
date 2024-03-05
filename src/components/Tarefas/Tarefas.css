@@ -1,0 +1,30 @@
+ul {
+  padding-inline-start: 0px;
+}
+
+.tarefas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: all 400ms;
+}
+
+.tarefas li:hover {
+  background: #e5e5e5;
+  border-radius: 5px;
+}
+
+
+ul li div .edit {
+  margin-right: 10px;
+  color: #7b00ff;
+}
+
+ul li div .close {
+  color: rgb(255, 66, 66);
+}
+
+ul li div {
+  cursor: pointer;
+}

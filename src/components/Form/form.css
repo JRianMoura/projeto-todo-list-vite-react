@@ -1,0 +1,11 @@
+.form button {
+  background: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+}
