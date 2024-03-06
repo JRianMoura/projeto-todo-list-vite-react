@@ -10,6 +10,7 @@ export default function Form({ handleChange, handleSubmit, novaTarefa }) {
         onChange={handleChange}
         type="text"
         value={novaTarefa}
+        placeholder='Digite aqui a sua tarefa:'
       />
       <button type="submit">
         <FaPlus />

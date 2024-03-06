@@ -1,5 +1,7 @@
 ul {
   padding-inline-start: 0px;
+  width: 80%;
+  word-break:break-all;
 }
 
 .tarefas li {
@@ -8,6 +10,7 @@ ul {
   justify-content: space-between;
   padding: 10px;
   transition: all 400ms;
+  
 }
 
 .tarefas li:hover {
@@ -27,4 +30,8 @@ ul li div .close {
 
 ul li div {
   cursor: pointer;
+}
+
+.buttonsli{
+  display: flex;
 }
